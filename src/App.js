@@ -9,7 +9,7 @@ const id_atualiza = document.getElementById("id_update");///saber qual o item pa
 var vetor = [];
 const corpo = document.getElementById("corpo");
 function mostrar(){
-  if(localStorage.valores){//se tiver "valores" nolocalStorage execute o de baixo
+  if(localStorage.valores){//se tiver "valores" nolocalStorage execute o de baixo ====
       vetor = JSON.parse(localStorage.getItem('valores'));//está pegando o "valores" que tem os valores do "vetor" e devolve a ela
   }
   for(var i in vetor){

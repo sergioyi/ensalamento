@@ -1,0 +1,15 @@
+.html{
+    background-color: rgb(235, 235, 235);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 9%;
+    border-radius: 10px;
+    width: auto;
+}
+.div_pai{
+    display: flex;
+}
+.div_fiho{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
